@@ -36,8 +36,7 @@ Dugme **Arhiva…** → odaberite datalogger, period (dd.mm.gggg) i mjerenja →
 Uređaj čuva do 70 000 zapisa; kad se napuni, najstariji se brišu, pa CSV povremeno snimite.
 
 ## Pravljenje exe fajla (jednom, na računaru s Pythonom)
-Dvoklik na `build_exe.bat`. Rezultat je u folderu `dist`.
-Ako antivirus označi exe, dodajte izuzetak za folder (poznat problem s PyInstallerom).
+
 
 ## Problemi
 - Dnevnik rada: `tcw220_monitor.log` pored exe fajla.
