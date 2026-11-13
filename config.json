@@ -1,0 +1,32 @@
+{
+  "refresh_seconds": 30,
+  "timeout_seconds": 8,
+  "archive_folder": "arhiva",
+  "decimal_separator": ",",
+  "record_live": false,
+
+  "dataloggers": [
+    {
+      "name": "Blok 6",
+      "host": "192.168.1.2",
+      "port": 80,
+      "username": "admin",
+      "password": "admin",
+      "enabled": true,
+      "groups": ["sensors"],
+      "hide_channels": [],
+      "channel_names": {
+        "S1.1": "Temperatura",
+        "S1.2": "Vlaga"
+      }
+    },
+    {
+      "name": "Primjer drugog dataloggera",
+      "host": "datalogger2.firma.local",
+      "port": 80,
+      "username": "admin",
+      "password": "admin",
+      "enabled": false
+    }
+  ]
+}
